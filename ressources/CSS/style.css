@@ -103,7 +103,7 @@ main{
     top: -1rem;
     width:99vw;
     height: 100vh;
-    background-image: url('../images/HERO_section.jpg');
+    background-image: url('../Images/HERO_section.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -220,4 +220,16 @@ footer{
 }
 #myAudio::-webkit-media-controls-panel{
     background-color: var(--section-color);
+}
+.navigation{
+    position: fixed;
+    top: 90%;
+    right: 3rem;
+    transform: translate(50%,-50%);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: var(--bg-color);
+    padding: 1rem;
+    border-radius: 50%;
 }
