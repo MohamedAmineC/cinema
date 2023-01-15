@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Martel&family=Merriweather+Sans&display=swap');
+/*================ VARIABLES CSS =============== */
+:root{
+    /*======== COLORS========*/
+    --bg-color: #070E10;
+    --bg-color2:#5B4C3E;
+    --h1-color: #D9B888;
+    --h3-color: #EECD9C;
+    --section-color: #F5E3C5;
+    
+    /*======== FONT AND TYPOGRAPHY ==========*/
+    --h1-font-family:'Holtwood One SC', serif;
+    --h1-font-szie: 2rem;
+    --h3-font-family: 'Martel', serif;
+    --h3-font-size: 1.25rem;
+    --noraml-font-family: 'Merriweather Sans', sans-serif;
+    --normal-font-size: .931rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --tiny-font-size: .625rem;
+    /*================== Z INDEX ==================*/
+    --z-tooltip:10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+/*================== END VARIABLES CSS =====================*/
+
+/*=========GLOBAL STYLE===================*/
+html{
+    font-size: 16px;
+    font-family: var(--noraml-font-family);
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(6,5,8);
+    background: linear-gradient(10deg, rgb(31, 27, 24) 0%, rgb(122, 100, 82) 100%);
+    color: var(--h3-color);
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--h3-color);
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+/*=============END GLOBAL STYLE===============*/
+
+/*=========== HEADER SECTION ===============*/
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    z-index: var(--z-tooltip);
+}
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+#logo img{
+    width: 10rem;
+    
+}
+#logo p{
+    font-size: var(--h3-font-family);
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5.5rem;
+    font-size: var(--small-font-size);
+}
+nav>ul>li:last-of-type> a{
+   background-color: var(--bg-color);
+   padding: 1rem;
+   border-radius: 1rem;
+   transition: all 500ms ease-out;
+}
+
+nav>ul>li:last-of-type> a:hover{
+    background-color: transparent;
+    background-color: var(--h3-color);
+    color: var(--bg-color); 
+}
+/*================ END HEADER section ==================*/
+/*================ MAIN SECTION======================*/
+main{
+    top: -1rem;
+    width:99vw;
+    height: 100vh;
+    background-image: url('../images/HERO_section.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%
+}
+#hero{
+    width: 30rem;
+    display: grid;
+    align-items: center;   
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 10rem;
+}
+
+#hero h1{
+    font-family: var(--h1-font-family);
+    font-size: var(--h1-font-szie);
+    color: var(--h1-color);
+}
+#hero h1 span{
+    color: var(--bg-color);
+}
+#hero p{
+    width: 25rem;
+}
+#hero a{
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    text-align: center;
+    background-color: #5B4C3E;
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: all 500ms linear;
+}
+#hero a:hover{
+    background-color: var(--bg-color);
+}
+/*=================== END HERO SECTION=======================*/
+/*===================END MAIN SECTION========================*/
+
+/*================= CREDITS SECTION =====================*/
+#credits{
+    margin-block: 5rem;
+}
+.credits-content{
+    max-width: 80%;
+    margin-inline: auto;
+    display: flex;
+}
+.credits-content .credits-img{
+    width:40%;
+}
+.credits-content .credits-img img{
+    border-radius: 1rem;
+}
+
+.credits-content .credits-details{
+    width:50%;
+    background-color: var(--section-color);
+    color: var(--bg-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transform: translate(-10%,30%);
+}
+.credits-content .credits-details h3{
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    text-transform: uppercase;
+}
+
+/*=================== END CREDITS SECTION=======================*/
+
+/*=================== FOOTER SECTION====================*/
+
+footer{
+    background-color: var(--bg-color);
+    font-size: var(--smaller-font-size);
+    margin-top: 8rem;
+    width: 100%;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+}
+
+/*=================== AUDIO SECTION====================*/
+.audio-player {
+    position: fixed;
+    top: 50%;
+    right: 3rem;
+    transform: translate(50%,-50%);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: var(--bg-color);
+    padding: 1rem;
+    border-radius: 50%;
+}
+  
+#music-icon {
+    width: 100%;
+    height: 100%;
+}
+#myAudio {
+    display: none;
+    transform: translate(-100%,-140%);
+    transform-origin: left right;
+    position: absolute;
+    top: 150%;
+}
+#myAudio::-webkit-media-controls-panel{
+    background-color: var(--section-color);
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Effets spéciaux du cinéma avant 1950</title>
+        <link rel="stylesheet" type="text/css" href="./ressources/CSS/style.css">
+      </head>
+      
+      <body>
+        <header>
+            <a href="index.html">
+                <div id="logo">
+                    <img src="./ressources/Images/logo-transparent.png" alt="">
+                    <p>The movie critic</p>
+                </div>
+             </a>
+            <nav>
+                <ul>
+                    <li><a href="./PAGES/history.html">Histoire</a></li>
+                    <li><a href="./PAGES/techniques.html">Techniques</a></li>
+                    <li><a href="./PAGES/films.html">Films célèbres</a></li>
+                    <li><a href="./PAGES/references.html">Références</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <h1>Les effets spéciaux <span>avant</span> le numérique</h1>
+                <p> Rejoignez-nous alors que nous découvrons les films et les personnes qui ont repoussé les limites de ce qui était possible et ont ouvert la voie pour le cinéma moderne</p>
+                <a href="./PAGES/history.html">Découvrir</a>
+            </section>
+        </main>
+        
+        <section id="credits">
+            <div class="credits-content">
+                <div class="credits-img">
+                    <img src="./ressources/Images/logo.png" alt="logo"></div>
+                <div class="credits-details">
+                    <h3>The movie critic</h3>
+                    <p>Ce site web est dédié à l'exploration de l'histoire des effets spéciaux dans le cinéma avant 1960. Nous plongeons en profondeur dans les techniques et les innovations pionnières qui ont façonné la façon dont les films sont fabriqués aujourd'hui. Des effets mécaniques aux pyrotechnies, maquillages et son, nous en couvrons tout.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+          <p>Copyright &copy; 2023 Mohamed Amine CHALOUATI</p>
+        </footer>
+        <div class="audio-player">
+            <img src="./ressources/Images/43-music-note-gradient.gif" alt="Music Icon" id="music-icon">
+            <audio id="myAudio" autoplay="true" controls>
+                <source src="./ressources/audio/bienvenue.mp3">
+            </audio>
+          </div>          
+        
+        <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+        <script>
+            var musicIcon = document.getElementById("music-icon");
+            var myAudio = document.getElementById("myAudio");
+            myAudio.volume= 0.2;         
+
+            musicIcon.addEventListener("mouseover", function() {
+                myAudio.style.display = "block";
+                myAudio.focus();
+            });
+
+            myAudio.addEventListener("mouseout", function() {
+                this.blur();
+                myAudio.style.display = "none";
+            });
+
+
+
+         </script>
+
+      </body>
+</html>
