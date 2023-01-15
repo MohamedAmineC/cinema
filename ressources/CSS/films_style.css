@@ -232,84 +232,84 @@ main{
 /*============================ BACKGROUND IMAGES FILMS =========================*/
 /*============================ Lune ===============================*/
 #films .films-section .films-content .film-card.lune .films-images{
-    background-image: url(../Images/films/le-voyage-dans-la-lune.png);
+    background-image: url('../Images/films/le-voyage-dans-la-lune.png');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.lune .films-images:hover{
-    background-image: url(../Images/films/le-voyage-dans-la-lune2)
+    background-image: url('../Images/films/le-voyage-dans-la-lune2')
 }
 /*============================ Metropolis ===============================*/
 #films .films-section .films-content .film-card.metropolis .films-images{
-    background-image: url(../Images/films/Metropolis.jpg);
+    background-image: url('../Images/films/Metropolis.jpg');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.metropolis .films-images:hover{
-    background-image: url(../Images/films/Metropolis-hover.webp)
+    background-image: url('../Images/films/Metropolis-hover.webp')
 }
 /*============================ La fin du monde ===============================*/
 #films .films-section .films-content .film-card.fin .films-images{
-    background-image: url(../Images/films/fin.jpg);
+    background-image: url('../Images/films/fin.jpg');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.fin .films-images:hover{
-    background-image: url(../Images/films/fin-hover.jpg)
+    background-image: url('../Images/films/fin-hover.jpg')
 }
 
 /*============================ dracula ===============================*/
 #films .films-section .films-content .film-card.dracula .films-images{
-    background-image: url(../Images/films/DRACULA.jpg);
+    background-image: url('../Images/films/DRACULA.jpg');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.dracula .films-images:hover{
-    background-image: url(../Images/films/DRACULA-hover.jpg)
+    background-image: url('../Images/films/DRACULA-hover.jpg')
 }
 /*============================ frankenstein ===============================*/
 #films .films-section .films-content .film-card.frankenstein .films-images{
-    background-image: url(../Images/films/frankenstein.jpg);
+    background-image: url('../Images/films/frankenstein.jpg');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.frankenstein .films-images:hover{
-    background-image: url(../Images/films/frankenstein-hover.jpg)
+    background-image: url('../Images/films/frankenstein-hover.jpg')
 }
 /*============================ la momie ===============================*/
 #films .films-section .films-content .film-card.momie .films-images{
-    background-image: url(../Images/films/momie.jpg);
+    background-image: url('../Images/films/momie.jpg');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.momie .films-images:hover{
-    background-image: url(../Images/films/momie-hover.jpg)
+    background-image: url('../Images/films/momie-hover.jpg')
 }
 /*============================ KING-KONG ===============================*/
 #films .films-section .films-content .film-card.king-kong .films-images{
-    background-image: url(../Images/films/king-kong.webp);
+    background-image: url('../Images/films/king-kong.webp');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.king-kong .films-images:hover{
-    background-image: url(../Images/films/king-kong-hover.jpg)
+    background-image: url('../Images/films/king-kong-hover.jpg')
 }
 /*============================ OZ ===============================*/
 #films .films-section .films-content .film-card.oz .films-images{
-    background-image: url(../Images/films/oz.png);
+    background-image: url('../Images/films/oz.png');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.oz .films-images:hover{
-    background-image: url(../Images/films/oz-hover.jpg)
+    background-image: url('../Images/films/oz-hover.jpg')
 }
 /*============================ la belle et la bête ===============================*/
 #films .films-section .films-content .film-card.belle .films-images{
-    background-image: url(../Images/films/La-belle-et-la-bête.jpg);
+    background-image: url('../Images/films/La-belle-et-la-bête.jpg');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.belle .films-images:hover{
-    background-image: url(../Images/films/belle-et-bete-hover.jpg)
+    background-image: url('../Images/films/belle-et-bete-hover.jpg')
 }
 /*============================ La guerre des mondes ===============================*/
 #films .films-section .films-content .film-card.guerre .films-images{
-    background-image: url(../Images/films/WOTW.jpg);
+    background-image: url('../Images/films/WOTW.jpg');
     transition: background-image 400ms linear;
 }
 #films .films-section .films-content .film-card.guerre .films-images:hover{
-    background-image: url(../Images/films/WOTW-hover.jpg)
+    background-image: url('../Images/films/WOTW-hover.jpg')
 }
 
 
