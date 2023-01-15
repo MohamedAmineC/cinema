@@ -77,13 +77,14 @@
                             <img src="../ressources/Images/maquillage3.jpg" alt="">
                         </div>
                     </div>
-                    <div class="techniques-container-content">
+                    <div class="techniques-container-content" id="psycho-content">
                         <div class="image1">
                             <img src="../ressources/Images/sonore1.jpg" alt="">
                         </div>
                         <div class="paragraphe">
                             <h3>les effets sonores</h3>
                             <p>les effets sonores ont été utilisés pour renforcer l'ambiance d'une scène et pour ajouter des émotions. Les bruitages et la musique ont été utilisés pour créer des ambiances sonores et des effets de son surround. Par exemple, dans le film "Psycho" de 1960, les effets sonores ont été utilisés pour créer l'ambiance de tension dans les scènes de meurtre. Ces techniques ont permis aux cinéastes de créer une expérience immersive pour le spectateur.</p>
+                            <audio src="../ressources/audio/Psycho • Main Theme • Bernard Herrmann.mp3" id="psycho-audio"></audio>
                         </div>
                         <div class="image2">
                             <img src="../ressources/Images/sonore2.jpg" alt="">
@@ -140,6 +141,19 @@
                 this.blur();
                 myAudio.style.display = "none";
             });
+
+            var myDiv = document.getElementById("psycho-content");
+            var psycho = document.getElementById("psycho-audio");
+            psycho.volume=0.4;
+
+            myDiv.addEventListener("mouseover", function() {
+                psycho.play();
+                myAudio.pause();
+            });  
+            myDiv.addEventListener("mouseout", function() {
+                psycho.pause();
+                myAudio.play();
+            });   
 
 
 
