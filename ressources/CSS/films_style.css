@@ -163,7 +163,7 @@ main{
     height: 500px;
     background-image: url('../Images/movie_posters.png');
     background-repeat: repeat-x;
-    animation: slide 120s linear infinite; 
+    animation: slide 480s linear infinite; 
     margin-bottom: 5rem;
 }
 
@@ -172,7 +172,7 @@ main{
     background-image: url('../Images/movie_posters2.png');
     background-repeat: repeat-x;
     margin-top: 5rem;
-    animation: slide 120s linear infinite reverse; 
+    animation: slide 480s linear infinite reverse; 
     
 }
 #films .posters1:hover,#films .posters2:hover{
