@@ -122,50 +122,6 @@ nav>ul>li:last-of-type> a:hover{
 } 
 /*===================END HISTORY SECTION======================*/
 
-/*================= CREDITS SECTION =====================*/
-#credits{
-    margin-block: 5rem;
-    max-width: 80%;
-    margin:2rem auto;
-}
-.credits-content{
-   margin-block: 2rem;
-    display: flex;
-}
-.credits-content .credits-img{
-    width:40%;
-}
-.credits-content .credits-img img{
-    border-radius: 1rem;
-}
-
-.credits-content .credits-details{
-    width:50%;
-    height: fit-content;
-    background-color: var(--section-color);
-    color: var(--bg-color);
-    border-radius: 1rem;
-    padding: 1rem;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    transform: translate(-10%,30%);
-}
-.credits-content .credits-details h3{
-    font-family: var(--h3-font-family);
-    font-size: var(--h3-font-size);
-    text-transform: uppercase;
-}
-#credits>p{
-    font-family: var(--h3-font-family);
-    font-size: var(--h3-font-size);
-}
-#credits>p:last-of-type{
-    margin-top:10rem;
-}
-/*=================== END CREDITS SECTION=======================*/
 
 /*=================== FOOTER SECTION====================*/
 
