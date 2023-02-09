@@ -101,7 +101,6 @@ nav>ul>li:last-of-type> a:hover{
 /*================ MAIN SECTION======================*/
 main{
     top: -1rem;
-    width:99vw;
     height: 100vh;
     background-image: url('../Images/HERO_section.jpg');
     background-position: center;
